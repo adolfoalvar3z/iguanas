@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #000000;
+    margin: 0%;
+    cursor: url('../img/lizard.png'), auto;
+    font-family: 'Raleway';
+
+}
+
+header {
+    /* Layout Properties */
+    height: 73px;
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 59px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+#banner {
+    height: 727px;
+    /* UI Properties */
+    background: transparent url('../img/bg-header.jpg') 0% 0% no-repeat padding-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.desc-section {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: lighter !important;
+    height: 348px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 10%;
+}
+
+#texto-desc {
+    text-align: justify;
+}
+
+.desc-section img {
+    width: 399px;
+    height: 237px;
+    left: 731px;
+}
+
+.icons-section {
+    background-color: #1E1A13;
+    color: #ffffff;
+    height: 348px;
+    display: grid;
+    align-content: center;
+
+}
+
+.icons-align{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-column-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.icons-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: medium;
+
+
+}
+.icons-section p{
+font-size: 24px;
+font-weight: light;
+
+}
+.icons-section i {
+    font-size: 4em;
+}
+
+
+.galeria {
+    align-content: center;
+    height: 348px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-column-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    margin: 0px 10%;
+}
+
+.galeria img {
+    width: 316px;
+    height: 202px;
+
+}
+
+.galeria img:hover {
+    filter: contrast(200%);
+}
+
+footer {
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #1E1A13;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
